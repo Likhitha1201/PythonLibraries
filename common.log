@@ -28,3 +28,9 @@
  [39. 65. 78.]]
 2024-10-11 11:19:33,346- INFO- an old array datatype changed to  [[12. 34. 45.]
  [39. 65. 78.]] and new datatype will be: float64
+2024-10-11 11:33:45,921- DEBUG- updated array will be: [[1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]]
+2024-10-11 11:34:58,197- DEBUG- updated array will be: [[1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]]
