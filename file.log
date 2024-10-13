@@ -1,14 +1,11 @@
-2024-10-13 18:02:33,462- INFO- the original array which is needed to be calculated the power is: 0     2
-1    12
-2    13
-3    14
-4    15
-5    16
-dtype: int64
-2024-10-13 18:02:33,464- INFO- now the array of power of each ele is stored in: 0        (2, 8)
-1    (12, 1728)
-2    (13, 2197)
-3    (14, 2744)
-4    (15, 3375)
-5    (16, 4096)
-dtype: object
+2024-10-13 18:24:14,302- DEBUG- the final outfit displayed such as:         name  score  attempts qualify
+a  Anastasia   12.5         1     yes
+b       Dima    9.0         3      no
+c  Katherine   16.5         2     yes
+d      James    NaN         3      no
+e      Emily    9.0         2      no
+f    Michael   20.0         3     yes
+g    Matthew   14.5         1     yes
+h      Laura    NaN         1      no
+i      Kevin    8.0         2      no
+j      Jonas   19.0         1     yes
