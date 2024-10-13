@@ -1,133 +1,14 @@
-2024-10-13 14:58:16,304- DEBUG- 1D array's looks like: 0    12
-1    23
-2    45
-3    67
-4    48
-5    96
-6    99
+2024-10-13 18:02:33,462- INFO- the original array which is needed to be calculated the power is: 0     2
+1    12
+2    13
+3    14
+4    15
+5    16
 dtype: int64
-2024-10-13 14:58:16,304- DEBUG- after converting array to list: [12, 23, 45, 67, 48, 96, 99]
-2024-10-13 16:36:34,485- DEBUG- addition of 0    12
-1    13
-2    14
-3    15
-4    16
-dtype: int64 and 0    23
-1    34
-2    45
-3    67
-4    78
-dtype: int64 is:
-2024-10-13 16:36:34,493- INFO- after addition the of two series it gives:0    35
-1    47
-2    59
-3    82
-4    94
-dtype: int64
-2024-10-13 16:36:34,494- DEBUG- division of 0    12
-1    13
-2    14
-3    15
-4    16
-dtype: int64 and 0    23
-1    34
-2    45
-3    67
-4    78
-dtype: int64 is:
-2024-10-13 16:36:34,494- INFO- after addition the of two series it it gives:0    35
-1    47
-2    59
-3    82
-4    94
-dtype: int64
-2024-10-13 16:36:34,494- DEBUG- subtraction of 0    12
-1    13
-2    14
-3    15
-4    16
-dtype: int64 and 0    23
-1    34
-2    45
-3    67
-4    78
-dtype: int64 is:
-2024-10-13 16:36:34,494- INFO- after subtration the of two series it looks like:0    35
-1    47
-2    59
-3    82
-4    94
-dtype: int64
-2024-10-13 16:36:34,494- DEBUG- multiplication of 0    12
-1    13
-2    14
-3    15
-4    16
-dtype: int64 and 0    23
-1    34
-2    45
-3    67
-4    78
-dtype: int64 is:
-2024-10-13 16:38:27,709- DEBUG- addition of 0    12
-1    13
-2    14
-3    15
-4    16
-dtype: int64 and 0    23
-1    34
-2    45
-3    67
-4    78
-dtype: int64 is:
-2024-10-13 16:38:27,709- INFO- after addition the of two series it gives:0    35
-1    47
-2    59
-3    82
-4    94
-dtype: int64
-2024-10-13 16:38:27,709- DEBUG- division of 0    12
-1    13
-2    14
-3    15
-4    16
-dtype: int64 and 0    23
-1    34
-2    45
-3    67
-4    78
-dtype: int64 is:
-2024-10-13 16:38:27,717- INFO- after addition the of two series it it gives:0    35
-1    47
-2    59
-3    82
-4    94
-dtype: int64
-2024-10-13 16:38:27,718- DEBUG- subtraction of 0    12
-1    13
-2    14
-3    15
-4    16
-dtype: int64 and 0    23
-1    34
-2    45
-3    67
-4    78
-dtype: int64 is:
-2024-10-13 16:38:27,718- INFO- after subtration the of two series it looks like:0    35
-1    47
-2    59
-3    82
-4    94
-dtype: int64
-2024-10-13 16:38:27,718- DEBUG- multiplication of 0    12
-1    13
-2    14
-3    15
-4    16
-dtype: int64 and 0    23
-1    34
-2    45
-3    67
-4    78
-dtype: int64 is:
+2024-10-13 18:02:33,464- INFO- now the array of power of each ele is stored in: 0        (2, 8)
+1    (12, 1728)
+2    (13, 2197)
+3    (14, 2744)
+4    (15, 3375)
+5    (16, 4096)
+dtype: object
