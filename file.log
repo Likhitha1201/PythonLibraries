@@ -1,4 +1,4 @@
-2024-10-13 20:02:57,576: INFO: orginal data will be:         name  score  attempts qualify
+2024-10-13 20:34:21,456: INFO: orginal data will be:         name  score  attempts qualify
 a  Anastasia   12.5         1     yes
 b       Dima    9.0         3      no
 c  Katherine   16.5         2     yes
@@ -9,8 +9,7 @@ g    Matthew   14.5         1     yes
 h      Laura    NaN         1      no
 i      Kevin    8.0         2      no
 j      Jonas   19.0         1     yes 
-2024-10-13 20:02:57,576: INFO: the data which are attempted more than twice will be displayed here: 4
-2024-10-13 20:03:14,529: INFO: orginal data will be:         name  score  attempts qualify
+2024-10-13 20:50:29,572: INFO: orginal data will be:         name  score  attempts qualify
 a  Anastasia   12.5         1     yes
 b       Dima    9.0         3      no
 c  Katherine   16.5         2     yes
@@ -21,8 +20,7 @@ g    Matthew   14.5         1     yes
 h      Laura    NaN         1      no
 i      Kevin    8.0         2      no
 j      Jonas   19.0         1     yes 
-2024-10-13 20:03:14,534: INFO: the data which are attempted more than twice will be displayed here: 5
-2024-10-13 20:06:38,108: INFO: orginal data will be:         name  score  attempts qualify
+2024-10-13 20:51:13,333: INFO: orginal data will be:         name  score  attempts qualify
 a  Anastasia   12.5         1     yes
 b       Dima    9.0         3      no
 c  Katherine   16.5         2     yes
@@ -33,26 +31,12 @@ g    Matthew   14.5         1     yes
 h      Laura    NaN         1      no
 i      Kevin    8.0         2      no
 j      Jonas   19.0         1     yes 
-2024-10-13 20:07:03,623: INFO: orginal data will be:         name  score  attempts qualify
-a  Anastasia   12.5         1     yes
-b       Dima    9.0         3      no
-c  Katherine   16.5         2     yes
-d      James    NaN         3      no
-e      Emily    9.0         2      no
-f    Michael   20.0         3     yes
-g    Matthew   14.5         1     yes
-h      Laura    NaN         1      no
-i      Kevin    8.0         2      no
-j      Jonas   19.0         1     yes 
-2024-10-13 20:08:57,109: INFO: orginal data will be:         name  score  attempts qualify
-a  Anastasia   12.5         1     yes
-b       Dima    9.0         3      no
-c  Katherine   16.5         2     yes
-d      James    NaN         3      no
-e      Emily    9.0         2      no
-f    Michael   20.0         3     yes
-g    Matthew   14.5         1     yes
-h      Laura    NaN         1      no
-i      Kevin    8.0         2      no
-j      Jonas   19.0         1     yes 
-2024-10-13 20:08:57,109: INFO: no. of rows: 10 and no. of columns: 4
+2024-10-13 20:51:13,340: INFO: missing data: [name        James
+score         NaN
+attempts        3
+qualify        no
+Name: d, dtype: object, name        Laura
+score         NaN
+attempts        1
+qualify        no
+Name: h, dtype: object]
