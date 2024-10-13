@@ -1,0 +1,9 @@
+2024-10-13 14:58:16,304- DEBUG- 1D array's looks like: 0    12
+1    23
+2    45
+3    67
+4    48
+5    96
+6    99
+dtype: int64
+2024-10-13 14:58:16,304- DEBUG- after converting array to list: [12, 23, 45, 67, 48, 96, 99]
