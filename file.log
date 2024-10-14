@@ -1,4 +1,4 @@
-2024-10-14 12:38:24,607: INFO: orginal overall data will be:         name  score  attempts qualify
+2024-10-14 12:46:52,909: INFO: orginal overall data will be:         name  score  attempts qualify
 a  Anastasia   12.5         1     yes
 b       Dima    9.0         3      no
 c  Katherine   16.5         2     yes
@@ -9,4 +9,14 @@ g    Matthew   14.5         1     yes
 h      Laura    NaN         1      no
 i      Kevin    8.0         2      no
 j      Jonas   19.0         1     yes 
-2024-10-14 12:38:24,607: INFO:  number of rows are 10 and columns are 4
+2024-10-14 12:46:52,913: INFO: modified data will be:         name  score  attempts qualify
+a  Anastasia   12.5         1     yes
+b       Dima    9.0         3      no
+c  Katherine   16.5         2     yes
+d      James   11.5         3      no
+e      Emily    9.0         2      no
+f    Michael   20.0         3     yes
+g    Matthew   14.5         1     yes
+h      Laura    NaN         1      no
+i      Kevin    8.0         2      no
+j      Jonas   19.0         1     yes
