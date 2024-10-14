@@ -1,4 +1,4 @@
-2024-10-14 12:29:33,611: INFO: orginal overall data will be:         name  score  attempts qualify
+2024-10-14 12:38:24,607: INFO: orginal overall data will be:         name  score  attempts qualify
 a  Anastasia   12.5         1     yes
 b       Dima    9.0         3      no
 c  Katherine   16.5         2     yes
@@ -9,26 +9,4 @@ g    Matthew   14.5         1     yes
 h      Laura    NaN         1      no
 i      Kevin    8.0         2      no
 j      Jonas   19.0         1     yes 
-2024-10-14 12:29:33,619: INFO: after adding new row in to a dataframe:         name  score  attempts qualify
-a  Anastasia   12.5         1     yes
-b       Dima    9.0         3      no
-c  Katherine   16.5         2     yes
-d      James    NaN         3      no
-e      Emily    9.0         2      no
-f    Michael   20.0         3     yes
-g    Matthew   14.5         1     yes
-h      Laura    NaN         1      no
-i      Kevin    8.0         2      no
-j      Jonas   19.0         1     yes
-k     rachuu   56.9         1     yes
-2024-10-14 12:29:33,622: INFO: after deleting new row from the dataframe:         name  score  attempts qualify
-a  Anastasia   12.5         1     yes
-b       Dima    9.0         3      no
-c  Katherine   16.5         2     yes
-d      James    NaN         3      no
-e      Emily    9.0         2      no
-f    Michael   20.0         3     yes
-g    Matthew   14.5         1     yes
-h      Laura    NaN         1      no
-i      Kevin    8.0         2      no
-j      Jonas   19.0         1     yes
+2024-10-14 12:38:24,607: INFO:  number of rows are 10 and columns are 4
