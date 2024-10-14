@@ -1,4 +1,4 @@
-2024-10-14 13:10:35,611: INFO: orginal overall data will be:         name  score  attempts qualify
+2024-10-14 13:32:45,517: INFO: orginal overall data will be:         name  score  attempts qualify
 a  Anastasia   12.5         1     yes
 b       Dima    9.0         3      no
 c  Katherine   16.5         2     yes
@@ -9,4 +9,8 @@ g    Matthew   14.5         1     yes
 h      Laura    NaN         1      no
 i      Kevin    8.0         2      no
 j      Jonas   19.0         1     yes :
-2024-10-14 13:10:35,611: INFO: total sum of all attempts will be: 19:
+2024-10-14 13:32:45,522: INFO: Selected data from dataframe is:       name  score
+1     Dima    9.0
+3    James    NaN
+5  Michael   20.0
+6  Matthew   14.5:
