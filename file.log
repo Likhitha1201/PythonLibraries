@@ -1,4 +1,4 @@
-2024-10-14 08:53:39,400: INFO: orginal overall data will be:         name  score  attempts qualify
+2024-10-14 09:15:36,197: INFO: orginal overall data will be:         name  score  attempts qualify
 a  Anastasia   12.5         1     yes
 b       Dima    9.0         3      no
 c  Katherine   16.5         2     yes
@@ -9,26 +9,27 @@ g    Matthew   14.5         1     yes
 h      Laura    NaN         1      no
 i      Kevin    8.0         2      no
 j      Jonas   19.0         1     yes 
-2024-10-14 08:53:39,409: INFO: dataframe after adding new row:        name  score  attempts qualify quality
-a  Anastasia   12.5         1     yes     NaN
-b       Dima    9.0         3      no     NaN
-c  Katherine   16.5         2     yes     NaN
-d      James    NaN         3      no     NaN
-e      Emily    9.0         2      no     NaN
-f    Michael   20.0         3     yes     NaN
-g    Matthew   14.5         1     yes     NaN
-h      Laura    NaN         1      no     NaN
-i      Kevin    8.0         2      no     NaN
-j      Jonas   19.0         1     yes     NaN
-k     Rachuu   34.5         2     NaN     yes
-2024-10-14 08:53:39,409: INFO: after deleting newly added row:         name  score  attempts qualify quality
-a  Anastasia   12.5         1     yes     NaN
-b       Dima    9.0         3      no     NaN
-c  Katherine   16.5         2     yes     NaN
-d      James    NaN         3      no     NaN
-e      Emily    9.0         2      no     NaN
-f    Michael   20.0         3     yes     NaN
-g    Matthew   14.5         1     yes     NaN
-h      Laura    NaN         1      no     NaN
-i      Kevin    8.0         2      no     NaN
-j      Jonas   19.0         1     yes     NaN
+2024-10-14 09:15:36,202: INFO: after adding new row:        name  score  attempts qualify
+a  Anastasia   12.5         1     yes
+b       Dima    9.0         3      no
+c  Katherine   16.5         2     yes
+d      James    NaN         3      no
+e      Emily    9.0         2      no
+f    Michael   20.0         3     yes
+g    Matthew   14.5         1     yes
+h      Laura    NaN         1      no
+i      Kevin    8.0         2      no
+j      Jonas   19.0         1     yes
+k      menni   45.9         1     yes
+2024-10-14 09:15:36,206: INFO: sorted data will be:         name  score  attempts qualify
+k      menni   45.9         1     yes
+f    Michael   20.0         3     yes
+g    Matthew   14.5         1     yes
+h      Laura    NaN         1      no
+i      Kevin    8.0         2      no
+c  Katherine   16.5         2     yes
+j      Jonas   19.0         1     yes
+d      James    NaN         3      no
+e      Emily    9.0         2      no
+b       Dima    9.0         3      no
+a  Anastasia   12.5         1     yes
