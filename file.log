@@ -1,4 +1,4 @@
-2024-10-14 10:00:20,733: INFO: orginal overall data will be:         name  score  attempts qualify
+2024-10-14 10:37:53,316: INFO: orginal overall data will be:         name  score  attempts qualify
 a  Anastasia   12.5         1     yes
 b       Dima    9.0         3      no
 c  Katherine   16.5         2     yes
@@ -9,14 +9,14 @@ g    Matthew   14.5         1     yes
 h      Laura    NaN         1      no
 i      Kevin    8.0         2      no
 j      Jonas   19.0         1     yes 
-2024-10-14 10:00:20,737: INFO: after deleting attempts column modified data will be:         name  score qualify
-a  Anastasia   12.5     yes
-b       Dima    9.0      no
-c  Katherine   16.5     yes
-d      James    NaN      no
-e      Emily    9.0      no
-f    Michael   20.0     yes
-g    Matthew   14.5     yes
-h      Laura    NaN      no
-i      Kevin    8.0      no
-j      Jonas   19.0     yes
+2024-10-14 10:37:53,318: INFO: after adding new column then modified data will be:         name  score  attempts qualify result
+a  Anastasia   12.5         1     yes   pass
+b       Dima    9.0         3      no   fail
+c  Katherine   16.5         2     yes   pass
+d      James    NaN         3      no   fail
+e      Emily    9.0         2      no   fail
+f    Michael   20.0         3     yes   pass
+g    Matthew   14.5         1     yes   pass
+h      Laura    NaN         1      no   fail
+i      Kevin    8.0         2      no   fail
+j      Jonas   19.0         1     yes   pass
