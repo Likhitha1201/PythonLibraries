@@ -1,4 +1,4 @@
-2024-10-14 11:51:34,778: INFO: orginal data will be:         name  score  attempts qualify
+2024-10-14 12:13:26,580: INFO: orginal overall data will be:         name  score  attempts qualify
 a  Anastasia   12.5         1     yes
 b       Dima    9.0         3      no
 c  Katherine   16.5         2     yes
@@ -9,57 +9,7 @@ g    Matthew   14.5         1     yes
 h      Laura    NaN         1      no
 i      Kevin    8.0         2      no
 j      Jonas   19.0         1     yes 
-2024-10-14 11:54:39,144: INFO: orginal data will be:         name  score  attempts qualify
-a  Anastasia   12.5         1     yes
-b       Dima    9.0         3      no
-c  Katherine   16.5         2     yes
-d      James    NaN         3      no
-e      Emily    9.0         2      no
-f    Michael   20.0         3     yes
-g    Matthew   14.5         1     yes
-h      Laura    NaN         1      no
-i      Kevin    8.0         2      no
-j      Jonas   19.0         1     yes 
-2024-10-14 11:54:42,553: INFO: orginal data will be:         name  score  attempts qualify
-a  Anastasia   12.5         1     yes
-b       Dima    9.0         3      no
-c  Katherine   16.5         2     yes
-d      James    NaN         3      no
-e      Emily    9.0         2      no
-f    Michael   20.0         3     yes
-g    Matthew   14.5         1     yes
-h      Laura    NaN         1      no
-i      Kevin    8.0         2      no
-j      Jonas   19.0         1     yes 
-2024-10-14 11:56:38,781: INFO: orginal data will be:         name  score  attempts qualify
-a  Anastasia   12.5         1     yes
-b       Dima    9.0         3      no
-c  Katherine   16.5         2     yes
-d      James    NaN         3      no
-e      Emily    9.0         2      no
-f    Michael   20.0         3     yes
-g    Matthew   14.5         1     yes
-h      Laura    NaN         1      no
-i      Kevin    8.0         2      no
-j      Jonas   19.0         1     yes 
-2024-10-14 11:56:38,781: INFO: the name and score are: a    Anastasia
-b         Dima
-c    Katherine
-d        James
-e        Emily
-f      Michael
-g      Matthew
-h        Laura
-i        Kevin
-j        Jonas
-Name: name, dtype: object a    12.5
-b     9.0
-c    16.5
-d     NaN
-e     9.0
-f    20.0
-g    14.5
-h     NaN
-i     8.0
-j    19.0
-Name: score, dtype: float64
+2024-10-14 12:13:26,580: INFO: the data that the attempt is greater than 2 will be:       name  score  attempts qualify
+b     Dima    9.0         3      no
+d    James    NaN         3      no
+f  Michael   20.0         3     yes 
