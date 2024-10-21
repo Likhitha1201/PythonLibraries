@@ -24,9 +24,8 @@ def main():
     prg_lang=np.array(['java', 'python', 'PHP','javascript','c#','c++'])
     popularity= np.array([22.2,17.6,8.8,8,7.7,6.7])
     
-    plt.bar(prg_lang, popularity, color='y')
+    plt.bar(prg_lang, popularity, color='aqua')
     plt.show()
-    
    
 if __name__=="__main__":
     main()
