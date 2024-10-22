@@ -18,7 +18,7 @@ def main():
         Parameters: 
             prg_lang, popularity are the list of points that as to be displayed on graph.
         return:
-            It displays the bar graph.
+            It displays the bar graph with text label on  each bar in a bar graph.
 
     """
     
