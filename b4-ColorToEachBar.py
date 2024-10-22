@@ -27,7 +27,7 @@ def main():
     colors=['g','m','b','c','r','y']
     plt.bar(prg_lang, popularity, color=colors)
     plt.title(" popularity of programming Languages", size=15)
-    plt.xlabel("programming manguages")
+    plt.xlabel("programming languages")
     plt.ylabel("popularity")
     plt.show()
    
