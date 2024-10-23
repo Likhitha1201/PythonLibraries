@@ -1,10 +1,10 @@
 """ 
     @Author: Likhitha S
-    @Date: 23-10-2024 9:30
+    @Date: 23-10-2024 9:40
     @Last Modified by: Likhitha S
-    @Last Modified time: 23-10-2024 9:30
-    @Title: Write a Python program to draw a scatter plot using random distributions to generate balls of 
-    different sizes.
+    @Last Modified time: 23-10-2024 9:40
+    @Title: Write a Python program to draw a scatter plot comparing two subject marks of Mathematics 
+    and Science. Use marks of 10 students. 
        
 """
 
@@ -16,21 +16,23 @@ def main():
     """
 
         Description: 
-            This function is used to draw a scatter graph with different size of plots.
+            This function is used to draw a scatter graph by comparing the marks of the two subjects.
         Parameters: 
-            x, y are the plots taken from the random.randint()
+           math_marks, science_marks and marks_range are the given plots.
         return:
             It displays the graph with scatter plots.
 
     """
     
-    x=np.random.rand(1, 10, 50)
-    y=np.random.rand(1, 10, 50)
-    size=np.random.rand(1, 10, 50)
-    plt.scatter(x, y, marker='o', s=size, color='green', alpha=0.7)
-    plt.title("Scatter plot of random values", size=15, color='r')
-    plt.xlabel("x-values", size=12)
-    plt.ylabel("y-values", size=12)
+    math_marks = [88, 92, 80, 89, 100, 80, 60, 100, 80, 34] 
+    science_marks = [35, 79, 79, 48, 100, 88, 32, 45, 20, 30] 
+    marks_range = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100] 
+    plt.scatter(math_marks, science_marks, marker='x', color='green', alpha=0.7)
+    plt.title("Comparision of maths and science marks", size=15, color='r')
+    plt.xlabel("mathematics marks", size=12)
+    plt.ylabel("science marks", size=12)
+    plt.xticks(marks_range)
+    plt.yticks(marks_range)
     
     plt.show()
    
