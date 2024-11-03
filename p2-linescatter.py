@@ -63,20 +63,3 @@ def main():
 if __name__=="__main__":
     main()
    
-'''
-    # Create a line plot
-    line_plot = go.Figure()
-
-    # Add line trace
-    line_plot.add_trace(go.Scatter(x=x, y=y, mode='lines', name='Line'))
-
-    # Add scatter trace
-    line_plot.add_trace(go.Scatter(x=x, y=y, mode='markers', name='Scatter', marker=dict(size= 8, color='blue')))
-
-    # Update layout
-    line_plot.update_layout(title='Line and Scatter Plots of Random Coordinates',
-                            xaxis_title='X Axis',
-                            yaxis_title='Y Axis')
-    
-    line_plot.show()
-   ''' 
